@@ -1,0 +1,478 @@
+/*Estilizacao  Icons*/
+.menuToggle {
+  display: none;
+}
+
+.menuToggles {
+  display: none;
+}
+
+.bars-icon {
+  display: none;
+}
+
+.home-icon >i{
+  font-size: 20px;
+}
+.bars-icon > i{
+  font-size: 20px; 
+}
+
+.heart-icon{
+  color: red;
+}
+
+.bookmark-icon{
+  color:steelblue;
+}
+
+.midia_icons_photo{
+  width: 100%;
+  max-width: 60px;
+  height: 40px;
+}
+.footer-icon{
+  width: 50px;
+  font-size: 24px;
+}
+/**/
+
+/*Estilizcao Imagem*/
+.logo {
+  width: 100%;
+  max-width: 250px;
+}
+.logo_footer{
+  width: 50%;
+  height: 300px;
+}   
+  
+.logo-area,.footer_logo{
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.imagem_style{
+  width: 100%;
+  height: 600px;
+}
+
+.card-img{
+  width: 100%;
+  height: 240px;
+}
+
+.footer_image{
+  max-width: 200px;
+  height: 200px;
+}
+.card-img-top{
+  width: 100%;
+  height: 200px;
+}
+
+.news_button{
+  width: 70px;
+  height: 70px;
+}
+.card-img-top{
+  width: 100%;
+  height: 100px;
+}
+
+.card-img-top2{
+  width: 100%;
+  height: 400px;
+  padding: 20px 40px;
+  background: black;
+  border: black;
+}
+.modal-body > img {
+  width: 100%;
+  height: 400px;
+}
+.flag_image{
+  width: 50px;
+  height: 40px;
+}
+
+/**/
+
+/* Estilizacao Gerais*/
+
+body{
+  background-color:black;
+}
+
+a{
+  color:black;
+}
+
+p{
+  text-align: justify;
+}
+/**/
+
+/*Estilizacao Headers*/
+
+header{
+  margin-bottom: 40px;
+}
+
+#btnPesquisa{
+  background-color: none;
+  border-color: black;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+  border-radius: 25%;
+}
+#txtPesquisa{
+  border-radius: none;
+  margin-left: 20px;
+  height: 40px;
+}
+  
+#btnPesquisa:active{
+  background-color: white;
+}
+  
+#btnPesquisa:hover{
+  background-color: white;
+}
+  
+#btnPesquisa:focus{
+  box-shadow: 0 0 0 0.2rem rgba(226, 225, 225, 0.836);
+}
+
+.menu_header{
+  align-content: center;
+}
+  
+.menu_area{
+  margin-top: 10px;
+}
+
+.search_area
+a:hover{
+  color: rgb(190, 185, 185);
+}
+
+.menu_nav{
+  display:flex;
+  justify-content: flex-end;
+}
+  
+.menu_mobile {
+  display: none;
+}
+
+.menu_header > nav > a{
+  color: white;
+}
+
+
+/**/
+
+/*Estilizacao Main*/
+.dropdown-menu{
+  background-color: rgb(134, 133, 133);
+}
+
+.carousel-item{
+  margin-bottom: 50px;
+}
+.gif_area{
+  margin-bottom: 30px;
+}
+#exclusive > .title {
+  margin-top: 20px;
+}
+
+#news > .title {
+  margin-top: 20px;
+}
+ 
+#btnPesquisas{
+  border:none;
+  background: none;
+}
+#btnPesquisas:hover{
+  outline: none;
+}
+#k{
+  border:none;
+  background: none;
+}
+#k:hover{
+  outline: none;
+}
+#l, #m, #n{
+  border:none;
+  background: none;
+}
+#l:hover, #m:hover, #n:hover{
+  outline: none;
+}
+#source, #j{
+  border:none;
+  background: none;
+}
+#source:hover, #j:hover{
+  outline: none;
+}
+
+#x{
+  color: rgba(177, 184, 181, 0.616);
+  border:none;
+  background: none;
+}
+
+#x:hover{
+  outline: none;
+}
+
+#news{
+  margin-top: 20px;
+}
+
+
+#parceria{
+  display: none;
+}
+.news_text{
+  margin-top: 20px;
+}
+#source_news{
+  display: none;
+}
+.progress{
+  margin-bottom: 20px;
+}
+#buttons_menu_mobile{
+  display: none;
+}
+
+.title_exclusive{
+  background-image: url(images/efect4.png);
+  background-position: right bottom;
+  background-size: 50% 50px;
+  background-repeat: no-repeat;
+}
+#title_news{
+  display: none;
+}
+.card_area{
+  background: black;
+}
+
+
+/**/
+
+/*Estilizacao Footer*/
+
+.footer{
+  width: 100%;
+  padding: 50px 5% 15px;
+  margin-top: 20px;
+  background-color:rgb(46, 45, 45);
+  color: white;
+}
+
+.footer_area > p{
+  margin-top: 30px;
+}
+.follow_footer{
+  margin-top: 50px;
+}
+.footer_links{
+  text-align: center;
+}
+
+
+.direitos_autorais{
+  margin-top: 20px;
+  color: rgb(194, 194, 194);
+}
+
+.localization{
+  margin-top: 20px;
+}
+
+.footer_links >  a{
+  color: white;
+}
+.footer-icon{
+  color: white;
+}
+
+/**/
+
+@media screen and (max-width:768px){
+  /*Estilizacao Headear responsibilidade*/
+  .menu_header> nav >a{
+    display: none;
+  }
+    
+  .logo-area{
+    margin-bottom: 20px;
+  }
+
+  #btnPesquisa{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  .menu_header2{
+    flex-direction: row!important;
+  }
+    
+  .menu_nav{
+    display:flex;
+    justify-content: space-between;
+  }
+  .search_area{
+    display:flex;
+    justify-content: space-between;
+    flex-flow: row;
+  }
+  .bars-icon > .fa-bars{
+    color: white;
+  }
+  .imagem_style{
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+  }
+  #buttons_desktop{
+    display: none;
+  }
+  #title_news{
+    display: block;
+  }
+  .flag_image{
+    width: 30px;
+    height: 20px;
+  }
+  #buttons_menu_mobile{
+    display: block;
+  }
+  #title2{
+    margin-top: 20px;
+  }
+  /**/
+
+  /**/
+  /*MENU MOBILE*/
+  .menu_mobile {
+    display: none;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.1) 4px 0px 6px 1px;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 190px;
+    z-index: 1000000140;
+    background: rgb(75, 75, 75);
+    border-radius: 3px;
+    border-right: 1px solid rgb(47, 46, 46);
+    padding: 16px 32px;
+  }
+  .list_mobile {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0px;
+  }
+  .home-icon > i {
+    color: rgb(121, 120, 120);
+  }
+  .bars-icon {
+    height: inherit;
+    display: block;
+    z-index: 1000000141;
+  }
+  #close-icon{
+    position: fixed;
+  }
+  #menuToggle:checked ~ label i:nth-child(2) {
+    display: block;
+  }
+  #menuToggle:checked ~ label i:first-child {
+    display: none;
+  }
+  #menuToggle:not(:checked) ~ label i:first-child {
+    display: block;
+  }
+  #menuToggle:not(:checked) ~ label i:nth-child(2) {
+    display: none;
+  }
+  
+  #menuToggle:checked ~ div{
+    display: flex;
+  }
+  /**/  
+}
+  
+@media screen and (max-width:480px){
+  /*Estilizacao Headers Responsibilidade */
+  .menu_area2{
+    padding: 10px 40px;
+  }
+  .logo-area{
+    margin-bottom: 20px;
+  }
+
+  #btnPesquisa{
+    width: 30px;
+    height: 30px;
+  }
+
+  .menu_header2{
+    flex-direction: row !important;
+  }
+  /**/
+
+  /*Estilizacao Geral Responsibilidade*/
+  body{
+    background-size: 100% 250px;
+  }
+  /**/
+
+  /*Estilizacao Main Resnponsibilidade*/
+  .imagem_style{
+    margin-top: 40px;
+    width: 100%;
+    height: 250px;
+  }
+  .Companys_Collaborations{
+    display: none;
+  }
+  #parceria{
+    display: block;
+  }
+  #buttons_menu_mobile{
+    display: block;
+  }
+  #buttons_desktop{
+    display: none;
+  }
+  #title_news{
+    display: block;
+  }
+  .logo-area{
+    display: block;
+  }
+  .logo-area2{
+    display: none;
+  }
+  .bars-icon > .fa-bars{
+    color: white;
+  }
+  .flag_image{
+    width: 30px;
+    height: 20px;
+  }
+  /**/
+}

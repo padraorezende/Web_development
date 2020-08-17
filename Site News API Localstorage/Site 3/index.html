@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech News World Company</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <header class="container header">
+
+        <div class="row">
+
+            <div class="col-12 header_area">
+                <div class="row">
+                    
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 menu_area">
+                        <nav class=" menu_nav ">
+                    
+                            <input type="checkbox"  id ="menuToggle" class="menuToggle">
+                                <label for="menuToggle" class="bars-icon">
+                                    <i class="fa fa-bars"></i>
+                                    <i id="close-icon" class="fa fa-times-circle"></i>
+                                </label>
+                            <div class="menu_mobile">
+                                <ul class="list_mobile" id="mainList">
+                                    <li><a class="nav-link active bg-transparent text-secondary" href="#">
+                                        <input type="checkbox" class="menuToggle">
+                                        <label for="menuToggle" class="home-icon">
+                                            <i class="fa fa-home"></i>
+                                        </label>
+                                    </a></li>
+                                    <li> <a class="nav-link" href="https://www.theverge.com/tech">TECH</a></li>
+                                    <li><a class="nav-link" href="https://www.theverge.com/entertainment">ENTERTAINMENT</a></li>
+                                    <li><a class="nav-link" href="#news">NEWS</a></li>
+                                    <li><a class="nav-link" href="https://www.theverge.com/phone-review">REVIEW</a></li>
+                                </ul>
+                            </div>
+                            
+                        </nav>
+                    </div>
+
+                    
+                    
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 logo-area">
+                        <img src="images/logo.png" alt="Logo" class="logo">
+                    </div>
+
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12  pagination justify-content-center menu_header">
+                        <nav class="nav nav-pills flex-column flex-sm-row menu_header2">
+                            <div class="logo-area2">
+                                <img src="images/logo.png" alt="Logo" class="logo">
+                            </div>
+                            <a class="nav-link" href="https://www.theverge.com/tech">TECH</a>
+                            <a class="nav-link" href="https://www.theverge.com/entertainment">ENTERTAINMENT</a>
+                            <a class="nav-link" href="#news">NEWS</a>
+                            <a class="nav-link" href="https://www.theverge.com/phone-review">REVIEW</a>
+                            
+                            
+                            
+                            
+                            <input type="text" id="txtPesquisa">
+                            <button id="btnPesquisa">
+                                <input type="checkbox" class="menuToggles">
+                                    <label for="menuToggles" class="search-icon">
+                                        <i class="fa fa-search"></i>
+                                    </label>
+                            </button>
+                            
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="container main">
+
+        <div class="row">
+
+            
+             
+            
+            <div class="col-12 col-sm-12 col-md-12">
+                <h3 class="p-4 mb-2 bg-dark text-white t1">
+                    Gallery
+                </h3>
+                <div class=" row row-cols-1 row-cols-md-2">
+                    <div class="col-12 col-sm-12 col-md-8">
+                        <img src="images/tech1.jpg" class="imagem_style" alt="">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <img src="images/ps5.jpg" class="imagem_style2" alt="">
+                        <img src="images/tech2.jpg" class="imagem_style2" alt="">
+                    </div>
+                </div>
+            </div>
+            
+
+            
+            <div class="col-12 col-sm-12 col-md-12">
+                <h3 class="p-2 mb-2 bg-dark text-light">
+                    <div class="d-flex justify-content-between menu_javascript">
+                        <button class="nav-link" id="btnPesquisas">
+
+                            <nav class="nav nav-pills flex-column flex-sm-row">
+                                <h3 style="color: rgb(251, 251, 251)" >TOP</h3>
+                                <img src="images/brasil.png" alt="" class="flag_image">
+                            </nav>
+                        </button>
+                        
+                        <div>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Salvas
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="save_search">
+                                    
+                            </div> 
+                        </div>
+                        
+                    </div>
+                </h3>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12">
+                <div class="justify-content-between search_title1" id="title_men2">
+                    <div class = "col-md-10 search_title2">
+                        <h3 class="p-2 mb-2 bg-dark text-white" id="title_men">News</h3>
+                    </div>
+                    <div class = "col-md-2 search_title1">
+                        <button id="save">
+                            <h3>Salvar</h3>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-sm-12 col-md-12" id="telaBR">
+                
+                <div class="card mb-4" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-5">
+                            <a href="https://www.bbc.com/portuguese/geral-52886927">
+                                <img src="images/news5.jpg" class="card-img" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <a href="https://www.bbc.com/portuguese/geral-52886927">
+                                    <h5 class="card-title">Anonymous: por que os cyber-ativistas estão outra vez sob os holofotes</h5>
+                                    <p class="card-text">Os cyber-ativistas que atuam sob o codinome Anonymous voltaram das sombras em um momento em que o Brasil e os Estados Unidos vivem situações turbulentas nas ruas.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+        
+                <div class="card mb-4" style="max-width: 100%;" >
+                    <div class="row no-gutters">
+                        <div class="col-md-5">
+                            <a href="https://www.comboinfinito.com.br/principal/the-last-of-us-parte-2-para-ps4-rodara-perfeitamente-no-ps5/">
+                                <img src="images/news8.jpg" class="card-img" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <a href="https://www.comboinfinito.com.br/principal/the-last-of-us-parte-2-para-ps4-rodara-perfeitamente-no-ps5/">
+                                    <h5 class="card-title">The Last of Us Parte 2 para PS4 rodará perfeitamente no PS5</h5>
+                                    <p class="card-text">De acordo com Jim Ryan, jogo rodará sem problemas no PS5</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-4" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-5">
+                            <a href="https://globoesporte.globo.com/e-sportv/fortnite/noticia/fortnite-como-pegar-codigo-de-apoiador-no-jogo.ghtml">
+                                <img src="images/news3.jpg" class="card-img" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <a href="https://globoesporte.globo.com/e-sportv/fortnite/noticia/fortnite-como-pegar-codigo-de-apoiador-no-jogo.ghtml">
+                                    <h5 class="card-title">Fortnite: como pegar e inserir código de apoiador no jogo</h5>
+                                    <p class="card-text">Veja o passo a passo de como conseguir e inserir um código do modelo de divisão de lucros do battle royale da Epic Games</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-4" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-5">
+                            <a href="https://canaltech.com.br/apps/google-maps-agora-deixa-voce-controlar-faixas-reproduzidas-no-youtube-music-166385/">
+                                <img src="images/news6.png" class="card-img" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <a href="https://canaltech.com.br/apps/google-maps-agora-deixa-voce-controlar-faixas-reproduzidas-no-youtube-music-166385/">
+                                    <h5 class="card-title">Google Maps agora deixa você controlar faixas reproduzidas no YouTube Music</h5>
+                                    <p class="card-text">Recurso disponível no Google Maps para Android desde 2018, o controle de mídia do aplicativo agora é compatível com o YouTube Music, permitindo comandar a reprodução de músicas durante trajetos sem sair do Maps.</p>
+                                </a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+            </div>
+
+
+
+
+            
+
+            <div class="col-12 col-sm-12 col-md-12" id="buttons_desktop">
+                <h3 class="p-2 mb-2 bg-dark text-danger">
+                    <button class="nav-link" id="source">
+                        <h3 style="color: rgb(251, 251, 251)">Source</h3>
+                    </button>
+                </h3>
+            </div>
+
+
+            <div class="col-12 col-sm-12 col-md-12" id="menu_source">
+                <h3 class="p-2 mb-2 bg-dark">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h3 style="color: rgb(251, 251, 251)">Source</h3>
+                        </div>
+                        </button>
+                        <div id="buttons_menu_mobile">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <input type="checkbox" class="menuToggle">
+                                    <label for="menuToggle" class="bookmark-icon">
+                                        <i class="fa fa-bookmark"></i>
+                                    </label>
+                            </a>
+                                            
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <button class="dropdown-item" id="e">
+                                    Companhias
+                            </button>
+                                <button class="dropdown-item" id="f">Blasting News (BR)</button>
+                                <button class="dropdown-item" id="g">Globo</button>
+                                <button class="dropdown-item" id="h">Google News (Brasil)</button>
+                                <button class="dropdown-item" id="i">InfoMoney</button>
+                            </div>
+                        </div>
+                    </div>
+                </h3>
+            </div>
+
+
+            <div class="col-12 col-sm-12 col-md-12"  id = "exclusive">
+                <div class="col-12 col-sm-12 col-md-12">
+                    <div class="row row-cols-1 row-cols-md-2">
+
+                        <div class="col-12 col-sm-12 col-md-8">
+                            
+
+
+                            <div id="tela">
+
+                                <div id="news">
+
+                                    <div class="card mb-4" style="max-width: 100%;">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-5">
+                                                <a href="https://www.tecmundo.com.br/mercado/154117-china-deve-finalizar-beidou-rival-gps-ainda-mes.htm">
+                                                    <img src="images/news1.jpg" class="card-img" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                    <a href="https://www.tecmundo.com.br/mercado/154117-china-deve-finalizar-beidou-rival-gps-ainda-mes.htm">
+                                                        <h5 class="card-title">China deve finalizar o Beidou, rival do GPS, ainda este mês</h5>
+                                                        <p class="card-text">A China está prestes a concluir o seu sistema de navegação Beidou, que dará ao país asiático uma maior independência em relação ao Sistema de Posicionamento Global (GPS) dos Estados Unidos. O último satélite da rede será colocado em órbita ainda em junho.</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                            
+                                    <div class="card mb-4" style="max-width: 100%;" >
+                                        <div class="row no-gutters">
+                                            <div class="col-md-5">
+                                                <a href="https://www.bbc.com/news/technology-52966178">
+                                                    <img src="images/news9.jpg" class="card-img" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                    <a href="https://www.bbc.com/news/technology-52966178">
+                                                        <h5 class="card-title">Tesla battery supplier Catl says new design has one million-mile lifespan</h5>
+                                                        <p class="card-text">A Chinese car battery-maker says it is ready to manufacture a product capable of powering a vehicle for 1.2 million miles (two million kilometres) across the course of a 16-year lifespan.</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card mb-4" style="max-width: 100%;">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-5">
+                                                <a href="https://www.bbc.com/news/business-53018455">
+                                                    <img src="images/news2.jpg" class="card-img" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                    <a href="https://www.bbc.com/news/business-53018455">
+                                                        <h5 class="card-title">Coronavirus: Twitter removes more than 170,000 pro-China accounts</h5>
+                                                        <p class="card-text">Twitter has removed more than 170,000 accounts it says were tied to an operation to spread pro-China messages.</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card mb-4" style="max-width: 100%;">
+                                        <div class="row no-gutters">
+                                            <div class="col-md-5">
+                                                <a href="https://www.bbc.com/news/technology-53024123">
+                                                    <img src="images/news4.jpg" class="card-img" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                    <a href="https://www.bbc.com/news/technology-53024123">
+                                                        <h5 class="card-title">Firm defends algorithm that 'spots women's orgasms'</h5>
+                                                        <p class="card-text">A firm that claimed to have built an algorithm to identify women's orgasms has defended itself after ridicule on social media.</p>
+                                                    </a>   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                    
+                        
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-4">
+
+                        
+
+                            <div id="source_news">
+
+                                <div>
+                                    <h3 class="p-3 mb-2 bg-dark text-danger">
+                                        <button class="nav-link" id="source">
+                                            <h3 style="color: rgb(251, 251, 251)">MENU OPÇÕES</h3>
+                                        </button>
+                                    </h3>
+                                </div>
+
+                                <div class="col mb-4">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <button class="dropdown-item" id="x">
+                                                Companhias
+                                            </button>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <button class="dropdown-item" id="a">
+                                                Blasting (BR)
+                                            </button>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <button class="dropdown-item" id="b">
+                                                Globo
+                                            </button>
+                                            </li>
+                                        <li class="list-group-item">
+                                            <button class="dropdown-item" id="c">
+                                                Google (BR)
+                                            </button>
+                                            </li>
+                                        <li class="list-group-item">
+                                            <button class="dropdown-item" id="d">
+                                                InfoMoney
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+
+                            
+            
+                            <div id ="tela2">
+            
+                                
+                                <div id="notice_card4">
+
+                                    <div class="col-12 col-sm-12 col-md-12">
+                                        <h3 class="p-3 mb-2 bg-dark text-white">
+                                            Exclusive
+                                        </h3>
+                                    </div>
+
+                                    <div class="col mb-4">
+                                        <div class="card">
+                                            <a href="https://www.bbc.com/news/av/technology-52944499/coronavirus-face-mask-lights-up-with-moving-mouth-shapes">
+                                            <img src="images/facemask.png" class="card-img" alt="">
+                                            </a>
+                                            <div class="card-body">
+                                                <a href="https://www.bbc.com/news/av/technology-52944499/coronavirus-face-mask-lights-up-with-moving-mouth-shapes">
+                                                <h5 class="card-title">Coronavirus face mask lights up with moving mouth shapes</h5>
+                                                    <p class="card-text">A light-up face mask that responds to the sound of the wearer's voice has been developed by a games developer in Californi</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col mb-4">
+                                        <div class="card">
+                                            <a href="https://www.bbc.com/news/business-53020775">
+                                            <img src="images/news10.jpg" class="card-img" alt="">
+                                            </a>
+                                            <div class="card-body">
+                                                <a href="https://www.bbc.com/news/business-53020775">
+                                                    <h5 class="card-title">Wall Street stages recovery after heavy losses on Thursday</h5>
+                                                    <p class="card-text">US shares ender higher on Friday as buyers stepped in following sharp losses earlier in the day.</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                                
+                        </div>
+
+                                               
+                    </div>
+                    
+                </div>
+
+            </div>
+            
+        </div>
+
+    </main>
+
+
+
+    <footer class="container footer">
+
+        <div class="row">
+
+            <div class=" col-12 col-sm-12 col-md-12 col-lg-12 border-bottom border-secondary text-center all_footer">
+
+                <div class="row">
+
+                    <div class="col-12 col-sm-4 col-md-4 footer_area">
+                        <h4>Journal</h4>
+                        <div class = "footer_logo">
+                        <img src="images/logo.png" alt="" class="logo">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 footer_links">
+                        <h4>Quick Links</h4>
+                        <a class="nav-link" href="https://www.theverge.com/tech">TECH</a>
+                        <a class="nav-link" href="https://www.theverge.com/entertainment">ENTERTAINMENT</a>
+                        <a class="nav-link" href="#news">NEWS</a>
+                        <a class="nav-link" href="https://www.theverge.com/phone-review">REVIEW</a>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4">
+                        <h4>Follow us on</h4>
+                        <div>
+                            <a href="https://www.instagram.com/?hl=pt-br">
+                                <input type="checkbox" class="menuToggle">
+                                <label for="menuToggle" class="footer-icon">
+                                    <i class="fa fa-instagram"></i>
+                                </label>
+                            </a>
+                            <a href="https://twitter.com/">
+                                <input type="checkbox" class="menuToggle">
+                                <label for="menuToggle" class="footer-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </label>
+                            </a>
+                            <a href="https://www.facebook.com/">
+                                <input type="checkbox" class="menuToggle">
+                                <label for="menuToggle" class="footer-icon">
+                                    <i class="fa fa-facebook"></i>
+                                </label>
+                            </a>
+                        </div>
+
+                        <h4 class="localization">About</h4>
+                        <div>
+                            <p>Conheça Tech News World há empresa que revolucionou a forma de transmitir as noticias ate voce!</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12">
+                <p class="text-center direitos_autorais">© Tech News World Company 2020</p>
+            </div>
+
+        </div>
+
+    </footer>
+    
+
+
+    
+    
+    <script src="javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

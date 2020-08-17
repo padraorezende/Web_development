@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR7 NEWS COMPANY</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <header class="container header">
+
+        <div class="row">
+
+            <div class="col-12 header_area">
+                <div class="row">
+                    
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 menu_area">
+                        <nav class=" menu_nav ">
+                    
+                            <input type="checkbox"  id ="menuToggle" class="menuToggle">
+                                <label for="menuToggle" class="bars-icon">
+                                    <i class="fa fa-bars"></i>
+                                    <i id="close-icon" class="fa fa-times-circle"></i>
+                                </label>
+                            <div class="menu_mobile">
+                                <ul class="list_mobile" id="mainList">
+                                    <li><a class="nav-link active bg-transparent text-secondary" href="#">
+                                        <input type="checkbox" class="menuToggle">
+                                        <label for="menuToggle" class="home-icon">
+                                            <i class="fa fa-home"></i>
+                                        </label>
+                                    </a></li>
+                                    <li>
+                                        <div id="buttons_menu_mobile">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                TOP
+                                            </a>
+                                        
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <button class="dropdown-item" id="j">
+                                                    <img src="images/brasil.png" alt="" class="flag_image">
+                                                </button>
+                                                <button class="dropdown-item" id="o">
+                                                    <img src="images/usa.png" alt="" class="flag_image">
+                                                </button>
+                                                <button class="dropdown-item" id="p">
+                                                    <img src="images/russia.png" alt="" class="flag_image">
+                                                </button>
+                                                <button class="dropdown-item" id="r">
+                                                    <img src="images/german.png" alt="" class="flag_image">
+                                                </button>
+                                                <button class="dropdown-item" id="s">
+                                                    <img src="images/japan.png" alt="" class="flag_image">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div id="buttons_menu_mobile">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                SOURCE
+                                            </a>
+                                        
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <button class="dropdown-item" id="e">
+                                                    About Collaborations
+                                                </button>
+                                                <button class="dropdown-item" id="f">Blasting News (BR)</button>
+                                                <button class="dropdown-item" id="g">Globo</button>
+                                                <button class="dropdown-item" id="h">Google News (Brasil)</button>
+                                                <button class="dropdown-item" id="i">InfoMoney</button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+
+                                    <li><a class="nav-link" href="https://www.esporteinterativo.com.br/secao/championsleague/">CHAMPIONS</a></li>
+                                    <li><a class="nav-link" href="https://www.esporteinterativo.com.br/secao/fanaticos/">FANATICS</a></li>
+                                    <li><a class="nav-link" href="#news">NEWS</a></li>
+                                    <li><a class="nav-link" href="https://www.esporteinterativo.com.br/secao/outrosesportes/">OTHERS</a></li>
+                                </ul>
+                            </div>
+                            
+                        </nav>
+                    </div>
+
+                    
+                    
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 logo-area">
+                        <img src="images/logoC.png" alt="Logo" class="logo">
+                    </div>
+
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12  pagination justify-content-center menu_header">
+                        <nav class="nav nav-pills flex-column flex-sm-row menu_header2">
+                            <a class="nav-link" href="https://www.esporteinterativo.com.br/secao/championsleague/">CHAMPIONS</a>
+                            <a class="nav-link" href="https://www.esporteinterativo.com.br/secao/fanaticos/">FANATICS</a>
+                            <a class="nav-link" href="#news">NEWS</a>
+                            <a class="nav-link" href="https://www.esporteinterativo.com.br/secao/outrosesportes/">OTHERS</a>
+                            
+                            
+                            
+                            
+                            <input type="text" id="txtPesquisa">
+                            <button id="btnPesquisa">
+                                <input type="checkbox" class="menuToggles">
+                                    <label for="menuToggles" class="search-icon">
+                                        <i class="fa fa-search"></i>
+                                    </label>
+                            </button>
+                            
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="container main">
+
+        <div class="row">
+                
+
+            
+            <div class="col-12 col-sm-12 col-md-12" id="buttons_desktop">
+                <h3 class="p-2 mb-2 bg-dark text-light">
+                    <div class="d-flex justify-content-between">
+                        <button class="nav-link" id="btnPesquisas">
+                            <h3>TOP
+                                <img src="images/brasil.png" alt="" class="flag_image">
+                            </h3>
+                        </button>
+                        <button class="nav-link" id="k">
+                            <img src="images/usa.png" alt="" class="flag_image">
+                        </button>
+                        <button class="nav-link" id="l">
+                            <img src="images/russia.png" alt="" class="flag_image">
+                        </button>
+                        <button class="nav-link" id="m">
+                            <img src="images/german.png" alt="" class="flag_image">
+                        </button>
+                        <button class="nav-link" id="n">
+                            <img src="images/japan.png" alt="" class="flag_image">
+                        </button>
+                        <button class="nav-link" id="source">
+                            <h3>Source</h3>
+                        </button>
+                        
+                    </div>
+                </h3>
+            </div>
+
+
+            <div class="col-12 col-sm-12 col-md-8"  id = "exclusive">
+
+                <div class="title"id="title_news">
+                    <h3 class="p-4 mb-2 bg-white text-dark">News</h3>
+                </div>
+                
+
+
+                <div id="tela">
+
+                    <div id="news">
+                        <div class="card mb-4" style="max-width: 100%;">
+                            <div class="row no-gutters">
+                                <div class="col-md-5">
+                                    <a href="https://globoesporte.globo.com/blogs/brasil-mundial-fc/noticia/messi-diz-que-vai-buscar-titulo-mais-importante-na-volta-do-futebol-levar-alegria-a-todos.ghtml">
+                                        <img src="images/14.jpg" class="card-img" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <a href="https://globoesporte.globo.com/blogs/brasil-mundial-fc/noticia/messi-diz-que-vai-buscar-titulo-mais-importante-na-volta-do-futebol-levar-alegria-a-todos.ghtml">
+                                            <h5 class="card-title">Messi diz que vai buscar título mais importante na volta do futebol: "Levar alegria a todos"</h5>
+                                            <p class="card-text">Em campanha publicitária, craque do Barcelona afirma que só quer voltar a jogar, assim como qualquer jogador. Astro volta aos gramados no sábado, diante do Mallorca</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                
+                        <div class="card mb-4" style="max-width: 100%;" >
+                            <div class="row no-gutters">
+                                <div class="col-md-5">
+                                    <a href="https://globoesporte.globo.com/futebol-americano/noticia/tom-brady-posa-com-novo-uniforme-do-tampa-bay-buccaneers-pela-1a-vez-na-nfl.ghtml">
+                                        <img src="images/15.jpg" class="card-img" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <a href="https://globoesporte.globo.com/futebol-americano/noticia/tom-brady-posa-com-novo-uniforme-do-tampa-bay-buccaneers-pela-1a-vez-na-nfl.ghtml">
+                                            <h5 class="card-title">Tom Brady posa com novo uniforme do Tampa Bay Buccaneers pela 1ª vez na NFL</h5>
+                                            <p class="card-text">Após 20 anos no New England Patriots, jogador assume a camisa 12 da equipe da Flórida</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4" style="max-width: 100%;">
+                            <div class="row no-gutters">
+                                <div class="col-md-5">
+                                    <a href="https://noticiasdatv.uol.com.br/noticia/series/serie-de-fred-do-desimpedidos-no-youtube-tem-mais-de-7-milhoes-de-espectadores-37635">
+                                        <img src="images/1.jpg" class="card-img" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <a href="https://noticiasdatv.uol.com.br/noticia/series/serie-de-fred-do-desimpedidos-no-youtube-tem-mais-de-7-milhoes-de-espectadores-37635">
+                                            <h5 class="card-title">Série de Fred do Desimpedidos no YouTube alcança mais de 7 milhões de espectadores </h5>
+                                            <p class="card-text">A série Vai Pra Cima, Fred, que mostra a jornada do infuenciador Fred do Desimpedidos para se tornar um jogador profissional de futebol, terá o oitavo e último episódio liberado no YouTube neste domingo (7).</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4" style="max-width: 100%;">
+                            <div class="row no-gutters">
+                                <div class="col-md-5">
+                                    <a href="https://www.abc.net.au/news/2020-06-17/ski-season-snow-coronavirus-safety-social-distancing/12361498">
+                                        <img src="images/17.jpg" class="card-img" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <a href="https://www.abc.net.au/news/2020-06-17/ski-season-snow-coronavirus-safety-social-distancing/12361498">
+                                            <h5 class="card-title">Planning a snow holiday? How to reduce your coronavirus risk at Thredbo, Perisher or Mount Buller</h5>
+                                            <p class="card-text">If you're lucky enough to be able to afford a winter holiday, some good news: ski fields are reopening across the country as coronavirus restrictions continue to ease.</p>
+                                        </a>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                           
+            
+                </div>
+
+
+
+
+
+            </div>
+                    
+        
+                
+            <div class="col-12 col-sm-12 col-md-4">
+
+                <div id="source_news">
+
+                    <div class="col mb-4">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <button class="dropdown-item" id="x">
+                                    About Collaborations
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <button class="dropdown-item" id="a">
+                                    Blasting News (BR)
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <button class="dropdown-item" id="b">
+                                    Globo
+                                </button>
+                                </li>
+                            <li class="list-group-item">
+                                <button class="dropdown-item" id="c">
+                                    Google News (Brasil)
+                                </button>
+                                </li>
+                            <li class="list-group-item">
+                                <button class="dropdown-item" id="d">
+                                    InfoMoney
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                      
+                </div>
+
+               
+
+                <div id ="tela2">
+
+                    <div class="title" id="title2">
+                        <h3 class="p-4 mb-2 bg-info text-dark">Galeria</h3>
+                    </div>
+
+                    
+
+                    <div id="galery_carroseul">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row row-cols-1">
+                                        <div class="col mb-4">
+                                            <div class="card card_area">
+                                                <img src="images/9.jpg" class="card-img-top2" alt="Motocross">
+                                            </div>
+                                        </div>
+                                        <div class="col mb-4">
+                                            <div class="card card_area">
+                                                <img src="images/10.jpg" class="card-img-top2" alt="Motocross">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row row-cols-1">
+                                        <div class="col mb-4">
+                                            <div class="card card_area">
+                                                <img src="images/11.jpg" class="card-img-top2" alt="Motocross">
+                                            </div>
+                                        </div>
+                                        <div class="col mb-4">
+                                            <div class="card card_area">
+                                                <img src="images/12.jpg" class="card-img-top2" alt="Motocross">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    
+                    
+
+                    
+                </div>
+
+
+            </div>
+
+            
+        </div>
+
+    </main>
+
+
+
+    <footer class="container footer">
+
+        <div class="row">
+
+            <div class=" col-12 col-sm-12 col-md-12 col-lg-12 border-bottom border-secondary text-center all_footer">
+
+                <div class="row">
+
+                    <div class="col-12 col-sm-4 col-md-4 footer_area">
+                        <h4>Journal</h4>
+                        <p>O melhor do mundo no futebol e nas noticias, acompanhe o portal e veja as principais noticias que acontecem no mundo.Historia fenomenal é escrita com muita batalha e esforço faça parte do nosso time e vamos construir a nossa</p>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 footer_links">
+                        <h4>Quick Links</h4>
+                        <a class="nav-link" href="https://www.esporteinterativo.com.br/secao/championsleague/">CHAMPIONS</a>
+                            <a class="nav-link" href="https://www.esporteinterativo.com.br/secao/fanaticos/">FANATICS</a>
+                            <a class="nav-link" href="#news">NEWS</a>
+                            <a class="nav-link" href="https://www.esporteinterativo.com.br/secao/outrosesportes/">OTHERS</a>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 follow_footer">
+                        <h4>Follow us on</h4>
+                        <div>
+                            <a href="https://www.instagram.com/?hl=pt-br">
+                                <input type="checkbox" class="menuToggle">
+                                <label for="menuToggle" class="footer-icon">
+                                    <i class="fa fa-instagram"></i>
+                                </label>
+                            </a>
+                            <a href="https://twitter.com/">
+                                <input type="checkbox" class="menuToggle">
+                                <label for="menuToggle" class="footer-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </label>
+                            </a>
+                            <a href="https://www.facebook.com/">
+                                <input type="checkbox" class="menuToggle">
+                                <label for="menuToggle" class="footer-icon">
+                                    <i class="fa fa-facebook"></i>
+                                </label>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12">
+                <p class="text-center direitos_autorais">© 2020 CR7 News</p>
+            </div>
+
+        </div>
+
+    </footer>
+    
+
+
+    
+    
+    <script src="javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

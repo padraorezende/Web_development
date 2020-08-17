@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Journal Company</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <header class="container header">
+
+        <div class="row">
+
+            <div class="col-12 header_area">
+                <div class="row">
+                    
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 menu_area">
+                        <nav class=" menu_nav ">
+                    
+                            <input type="checkbox"  id ="menuToggle" class="menuToggle">
+                                <label for="menuToggle" class="bars-icon">
+                                    <i class="fa fa-bars"></i>
+                                    <i id="close-icon" class="fa fa-times-circle"></i>
+                                </label>
+                            <div class="menu_mobile">
+                                <ul class="list_mobile" id="mainList">
+                                    <li><a class="nav-link active bg-transparent text-secondary" href="#">
+                                        <input type="checkbox" class="menuToggle">
+                                        <label for="menuToggle" class="home-icon">
+                                            <i class="fa fa-home"></i>
+                                        </label>
+                                    </a></li>
+                                    <li><a class="nav-link" href="https://www.coffeenews.com/about/">ABOUT</a></li>
+                                    <li><a class="nav-link" href="https://www.coffeenews.com/history/">HISTORY</a></li>
+                                    <li><a class="nav-link" href="https://www.coffeenews.com/coffee-news-family/">FAMILY</a></li>
+                                    <li><a class="nav-link" href="#news">NEWS</a></li>
+                                    <li><a class="nav-link" href="https://www.coffeenews.com/advertisers-frequently-asked-questions/">ADVERTISERS</a></li>
+                                    <li>
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            SOURCE
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <button class="dropdown-item" id="e">
+                                                About Collaborations
+                                            </button>
+                                            <button class="dropdown-item" id="f">Blasting News (BR)</button>
+                                            <button class="dropdown-item" id="g">Globo</button>
+                                            <button class="dropdown-item" id="h">Google News (Brasil)</button>
+                                            <button class="dropdown-item" id="i">InfoMoney</button>
+                                        </div> 
+                                    </li>
+                                </div>
+                            
+                            <div class="text_menu">
+                                <nav class="nav nav-pills flex-column flex-sm-row">
+                                    <a class="nav-link" href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&gmb=exp&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp">Subscribe</a>
+                                    <a class="nav-link" href="https://accounts.google.com/ServiceLogin/identifier?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&flowName=GlifWebSignIn&flowEntry=AddSession">Log In</a>
+                                </nav>
+                            </div>
+                        </nav>
+                    </div>
+                    
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 logo-area">
+                        <img src="images/times2.png" alt="Logo" class="logo">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12  pagination justify-content-center menu_header">
+                        <nav class="nav nav-pills flex-column flex-sm-row menu_header2">
+                            <a class="nav-link active bg-transparent text-danger" href="#">
+                                <input type="checkbox" class="menuToggle">
+                                <label for="menuToggle" class="home-icon">
+                                    <i class="fa fa-home"></i>
+                                </label>
+                            </a>
+                            <a class="nav-link" href="https://www.coffeenews.com/about/">ABOUT</a>
+                            <a class="nav-link" href="https://www.coffeenews.com/history/">HISTORY</a>
+                            <a class="nav-link" href="https://www.coffeenews.com/coffee-news-family/">FAMILY</a>
+                            <a class="nav-link" href="#news">NEWS</a>
+                            <a class="nav-link" href="https://www.coffeenews.com/advertisers-frequently-asked-questions/">ADVERTISERS</a>
+                            
+                            
+                            <input type="text" id="txtPesquisa">
+                            <button id="btnPesquisa">
+                                <input type="checkbox" class="menuToggles">
+                                    <label for="menuToggles" class="search-icon">
+                                        <i class="fa fa-search"></i>
+                                    </label>
+                            </button>
+                            
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="container main">
+
+        <div class="row">
+
+            <div class="col-12 col-sm-12 col-md-12">
+                <div>
+                    <a href="https://playvalorant.com/pt-br/">
+                        <img src="images/5.gif"  class= "imagem_style"alt="valorant">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-8"  id = "exclusive">
+
+                <div class="title">
+                    <h3 class="p-3 mb-2 bg-white text-dark">
+                        <div class="d-flex justify-content-between menu_javascript">
+                            <button class="nav-link" id="btnPesquisas">
+
+                                <nav class="nav nav-pills flex-column flex-sm-row">
+                                    <h3>BEST </h3>
+                                    <img src="images/brasil.png" alt="" class="flag_image">
+                                </nav>
+                            </button>
+                            
+                            <div>
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Salvas
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="save_search">
+                                        
+                                </div> 
+                            </div>
+                            
+                        </div>
+                    </h3>
+                </div>
+
+                <div class="justify-content-between search_title1" id="title_men2">
+                    <div class = "col-md-10 search_title2">
+                        <h3 class="p-2 mb-2 bg-info text-white" id="title_men">News</h3>
+                    </div>
+                    <div class = "col-md-2 search_title1">
+                        <button id="save">
+                            <h3>Save</h3>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div id="tela">
+
+
+                    <div class="card mb-4" style="max-width: 100%;">
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <a href="https://globoesporte.globo.com/e-sportv/valorant/noticia/valorant-e-lancado-oficialmente-no-brasil-com-nova-agente-e-novo-mapa.ghtml">
+                                    <img src="images/valorant.jpg" class="card-img" alt="Kevin De Bruyne">
+                                </a>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <a href="https://globoesporte.globo.com/e-sportv/valorant/noticia/valorant-e-lancado-oficialmente-no-brasil-com-nova-agente-e-novo-mapa.ghtml">
+                                        <h5 class="card-title">Valorant é lançado oficialmente no Brasil com nova agente e novo mapa</h5>
+                                        <p class="card-text">Agente mexicana Reyna e mapa Ascent, ambientado na Itália, são novidades na versão final do jogo, que chega ao país após grandes números durante o Beta Fechado.</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+            
+                    <div class="card mb-4" style="max-width: 100%;">
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <a href="https://globoesporte.globo.com/e-sportv/noticia/call-of-duty-activision-adia-novas-temporadas-de-season-4-cod-modern-warfare-cod-warzone-e-season-7-cod-mobile.ghtml">
+                                    <img src="images/cod.jpg" class="card-img" alt="Son">
+                                </a>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <a href="https://globoesporte.globo.com/e-sportv/noticia/call-of-duty-activision-adia-novas-temporadas-de-season-4-cod-modern-warfare-cod-warzone-e-season-7-cod-mobile.ghtml">
+                                        <h5 class="card-title">Call of Duty: Activision adia novas temporadas de Modern Warfare, Warzone e Mobile</h5>
+                                        <p class="card-text">Desenvolvedora se solidariza com protestos contra violência a negros que acontece nos Estados Unidos desde morte de George Floyd na semana passada.</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4" style="max-width: 100%;">
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <a href="https://globoesporte.globo.com/e-sportv/fifa/noticia/fifa-20-gabriel-jesus-esta-entre-as-principais-recompensas-da-setima-temporada.ghtml">
+                                    <img src="images/fifa.jpg" class="card-img" alt="Torcida do liverpool">
+                                </a>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <a href="https://globoesporte.globo.com/e-sportv/fifa/noticia/fifa-20-gabriel-jesus-esta-entre-as-principais-recompensas-da-setima-temporada.ghtml">
+                                        <h5 class="card-title">FIFA 20: Gabriel Jesus está entre as principais recompensas da sétima temporada</h5>
+                                        <p class="card-text">Matuidi, da Juventus, e Draxler, do PSG, completam o topo e também recebem cards importantes.</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4" style="max-width: 100%;">
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <a href="https://globoesporte.globo.com/e-sportv/csgo/noticia/csgo-quatro-horas-depois-gaules-recupera-recorde-de-espectadores-da-twitch.ghtml">
+                                    <img src="images/cs.jpg" class="card-img" alt="Barcelona Fc">
+                                </a>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <a href="https://globoesporte.globo.com/e-sportv/csgo/noticia/csgo-quatro-horas-depois-gaules-recupera-recorde-de-espectadores-da-twitch.ghtml">
+                                        <h5 class="card-title">CS:GO: quatro horas depois, Gaules recupera recorde de espectadores da Twitch</h5>
+                                        <p class="card-text">Transmissão de MIBR e Evil Geniuses na BLAST Premier Spring Showdown tomou a liderança</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                           
+            
+                </div>
+
+
+
+
+
+            </div>
+                    
+        
+                
+            <div class="col-12 col-sm-12 col-md-4"  id = "news">
+
+                <div class="col-sm-12 col mb-4 menu_settings">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <button class="dropdown-item" id="x">
+                                Colaborações
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="dropdown-item" id="a">
+                                Blasting News (BR)
+                            </button>
+                        </li>
+                        <li class="list-group-item">
+                            <button class="dropdown-item" id="b">
+                                Globo
+                            </button>
+                            </li>
+                        <li class="list-group-item">
+                            <button class="dropdown-item" id="c">
+                                Google News (BR)
+                            </button>
+                            </li>
+                        <li class="list-group-item">
+                            <button class="dropdown-item" id="d">
+                                InfoMoney
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="title">
+                    <h3 class="p-3 mb-2 bg-white text-dark">Colaborações</h3>
+                </div>
+
+                <div id ="tela2">
+
+                    <div id="parceria">
+                        <div class="col mb-4">
+                            <a href="https://www.twitch.tv/">
+                                <img src="images/1.gif" class="imagem_style" alt="Warzone Twitch">
+                            </a>
+                        </div>
+                        <div class="col mb-4">
+                            <a href="https://www.facebook.com/gaming/">
+                                <img src="images/3.gif" class="imagem_style" alt="Warzone Facebook">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class ="Companys_Collaborations">
+                        <div class="row row-cols-1 row-cols-md-1">
+                            <div class="col mb-4">
+                                <a href="https://www.rockstargames.com/br/">
+                                    <img src="images/rockstar.png" class="card-img-top" alt="Rockstar">
+                                </a>
+                            </div>
+                            <div class="col mb-4">
+                                <a href="https://www.riotgames.com/pt-br">
+                                    <img src="images/riot.png" class="card-img-top" alt="RIOT Games">
+                                </a>
+                            </div>
+                            <div class="col mb-4">
+                                <a href="https://www.ea.com/pt-br">
+                                    <img src="images/ea.png" class="card-img-top" alt="Eletronic Arts">
+                                </a>
+                            </div>
+                            <div class="col mb-4">
+                                <a href="https://www.playstation.com/pt-br/">
+                                    <img src="images/playstation.png" class="card-img-top" alt="Playstation">
+                                </a>
+                            </div>
+                            <div class="col mb-4">
+                                <a href="https://www.activisionblizzard.com/">
+                                    <img src="images/blizzard.png" class="card-img-top" alt="Activision Blizzard">
+                                </a>    
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+
+            </div>
+
+            
+        </div>
+
+    </main>
+
+
+
+    <footer class="container footer">
+
+        <div class="row">
+
+            <div class=" col-12 col-sm-12 col-md-12 col-lg-12 border-bottom border-secondary text-center all_footer">
+
+                <div class="row">
+
+                    <div class="col-12 col-sm-4 col-md-4 footer_area">
+                        <h4>Journal</h4>
+                        <div class = "footer_logo">
+                        <img src="images/times2.png" alt="" class="logo">
+                        </div>
+                        <p>Relaxe, tome um cafe, e descubra sobre o multiverso dos games, com o melhor jornal que forece as melhores noticias ate voce !</p>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 footer_links">
+                        <h4>Quick Links</h4>
+                        <a class="nav-link" href="https://www.coffeenews.com/about/">ABOUT</a>
+                        <a class="nav-link" href="https://www.coffeenews.com/history/">HISTORY</a>
+                        <a class="nav-link" href="https://www.coffeenews.com/coffee-news-family/">FAMILY</a>
+                        <a class="nav-link" href="https://www.coffeenews.com/advertisers-frequently-asked-questions/">ADVERTISERS</a>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4">
+                        <h4>Follow us on</h4>
+                        <div>
+                            <a href="https://www.instagram.com/cafe_journal_company/">
+                                <input type="checkbox" class="menuToggle">
+                                <label for="menuToggle" class="footer-icon">
+                                    <i class="fa fa-instagram"></i>
+                                </label>
+                            </a>
+                            <a href="https://twitter.com/cafe_company">
+                                <input type="checkbox" class="menuToggle">
+                                <label for="menuToggle" class="footer-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </label>
+                            </a>
+                            <a href="https://www.facebook.com/Cafe-Journal-100921491663875">
+                                <input type="checkbox" class="menuToggle">
+                                <label for="menuToggle" class="footer-icon">
+                                    <i class="fa fa-facebook"></i>
+                                </label>
+                            </a>
+                        </div>
+                        <h4 class="localization">Localization</h4>
+                        <div>
+                            <a href="https://www.google.com/maps/place/Caf%C3%A9+Journal/@-23.6091116,-46.6596133,15z/data=!4m5!3m4!1s0x0:0xa9af27ce2b17fb8b!8m2!3d-23.6091116!4d-46.6596133">
+                            <img src="images/cafe.png" alt="UEFA Foundation" class="footer_image">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12">
+                <p class="text-center direitos_autorais">© 2020 Cafe Journal Company</p>
+            </div>
+
+        </div>
+
+    </footer>
+    
+
+
+    
+    
+    <script src="javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
